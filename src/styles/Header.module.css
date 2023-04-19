@@ -1,0 +1,18 @@
+.header {
+    background-color: pink;
+}
+
+.header .list_nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list_nav li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.list_nav li:hover {
+    background-color: yellow;
+}
